@@ -25,6 +25,7 @@ html,body{
   font-size:1.4rem;
   flex-direction:column;
   background:pink;
+  min-height:70vh;
   gap:20px;
   border:3px solid #957698;
 }
@@ -89,4 +90,40 @@ img:hover {
 
 h2{
   text-align:center;
+}
+
+@media (min-width:1500px){
+  h1{
+    font-size:7rem;
+  }
+  #text-area{
+    font-size:1.8rem;
+  }
+}
+
+@media (min-width:2000px){
+  h1{
+    font-size:8rem;
+  }
+  #text-area{
+    font-size:2.3rem;
+  }
+}
+
+@media (min-width:2500px){
+  h1{
+    font-size:9.5rem;
+  }
+  #text-area{
+    font-size:3.3rem;
+  }
+}
+
+@media (min-width:3000px){
+  h1{
+    font-size:15rem;
+  }
+  #text-area{
+    font-size:5.3rem;
+  }
 }
