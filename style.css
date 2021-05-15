@@ -32,7 +32,7 @@ html,body{
 
 h1,h2{
   font-family:Bebas Neue;
-  font-size:6vw;
+  font-size:10vh;
 }
 
 p{
@@ -44,12 +44,11 @@ p{
   color: #a080a3;
   text-shadow: 0.2vw 0.2vw 0 #000, -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000,
   -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
-  letter-spacing:0.3vw;
+  letter-spacing:0.6vh;
 }
 
 #img-section{
   padding:100px 0;
-  width:100%;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -61,16 +60,16 @@ p{
 }
 
 .special:hover{
-  font-size:7vw;
+  font-size:12vh;
 }
 
 #img-area{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	grid-gap: 4rem;
 	margin-top: 50px;
 	width: 100%;
-	max-width: 100vh;
+	max-width: 1280px;
 	align-items: center;
 	justify-items: center;
 
@@ -78,7 +77,8 @@ p{
 img {
 	width: 100%;
 	height: auto;
-	max-width: 23vw;
+  min-width:300px;
+  max-width:400px;
 	border: 1px solid black;
 	transition: all .1s ease-out;
 }
