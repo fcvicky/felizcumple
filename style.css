@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html,body{
+  height:100%;
+}
+
+
+/* background: linear-gradient(180deg,#c0a0c3,#957698);*/
+
+#text-section{
+  min-height:100vh;
+  height:auto;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image: url("https://i.pinimg.com/originals/c7/42/88/c742883e33b6a56efcc7c9fd0a6ffa4c.gif");
+}
+
+#text-area{
+  margin:50px;
+  padding:50px;
+  display:flex;
+  font-size:1.4rem;
+  flex-direction:column;
+  background:pink;
+  gap:20px;
+  border:3px solid #957698;
+}
+
+h1,h2{
+  font-family:Bebas Neue;
+  font-size:5rem;
+}
+
+p{
+  font-family:Roboto, sans-serif;
+  font-weight:900;
+}
+
+.highlight {
+  color: #a080a3;
+  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+  -1px 1px 0 #000, 1px 1px 0 #000;
+  letter-spacing:0.03em;
+}
+
+#img-section{
+  margin:100px 0;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+	flex-direction: column;
+}
+
+.special{
+	transition: all .3s ease-in-out;
+}
+
+.special:hover{
+  font-size:6rem;
+}
+
+#img-area{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 4rem;
+	margin-top: 50px;
+	width: 100%;
+	max-width: 1280px;
+	align-items: center;
+	justify-items: center;
+
+}
+img {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	background-color: #ffc5eb;
+	border: 1px solid black;
+	transition: all .1s ease-out;
+}
+
+img:hover {
+	transform: scale(1.05);
+}
