@@ -5,10 +5,8 @@
 
 html,body{
   height:100%;
+  margin-bottom:10px !important;
 }
-
-
-/* background: linear-gradient(180deg,#c0a0c3,#957698);*/
 
 #text-section{
   min-height:100vh;
@@ -49,7 +47,7 @@ p{
 }
 
 #img-section{
-  margin:100px 0;
+  padding:100px 0;
   width:100%;
   display:flex;
   justify-content:center;
@@ -87,4 +85,8 @@ img {
 
 img:hover {
 	transform: scale(1.05);
+}
+
+h2{
+  text-align:center;
 }
